@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using withings.net.Models.Heart;
 
 namespace withings.net.Models.Sleep
 {
@@ -14,12 +15,12 @@ namespace withings.net.Models.Sleep
         public long State { get; set; }
 
         [JsonProperty("hr")]
-        public Hr Hr { get; set; }
+        public HeartRate Hr { get; set; }
 
         [JsonProperty("rr")]
-        public Hr Rr { get; set; }
+        public HeartRate Rr { get; set; }
 
         [JsonProperty("snoring")]
-        public Hr Snoring { get; set; }
+        public HeartRate Snoring { get; set; }
     }
 }

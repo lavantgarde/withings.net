@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "withings.net", "withings.net\withings.net.csproj", "{F2C13083-B871-4FA9-A834-07CA318609FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "withings.net.wpf", "withings.net.wpf", "{66F75948-9C4A-49B0-83AD-F9B7938B3E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "withings.net.wpf", "withings.net.wpf\withings.net.wpf.csproj", "{3AD75A79-5541-4F73-AA1E-0C80028BC6C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "withings.net.uwp", "withings.net.uwp", "{E1D8CE58-3F4C-4930-9B66-BF0010923589}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "withings.net.asp", "withings.net.asp", "{C1287EE3-5350-485B-B0BA-51B5AF6D8503}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,16 @@ Global
 		{F2C13083-B871-4FA9-A834-07CA318609FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C13083-B871-4FA9-A834-07CA318609FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C13083-B871-4FA9-A834-07CA318609FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD75A79-5541-4F73-AA1E-0C80028BC6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD75A79-5541-4F73-AA1E-0C80028BC6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD75A79-5541-4F73-AA1E-0C80028BC6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD75A79-5541-4F73-AA1E-0C80028BC6C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AD75A79-5541-4F73-AA1E-0C80028BC6C5} = {66F75948-9C4A-49B0-83AD-F9B7938B3E16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FA4ECC0-DE32-422D-90FA-5564C9E6F9D1}
